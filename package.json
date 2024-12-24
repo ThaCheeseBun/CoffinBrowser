@@ -1,0 +1,19 @@
+{
+  "name": "CoffinBrowser",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "ISC",
+  "author": "ThaCheeseBun",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "rollup": "^4.29.1",
+    "rollup-plugin-polyfill-node": "^0.13.0"
+  },
+  "dependencies": {
+    "uzip": "^0.20201231.0"
+  }
+}
