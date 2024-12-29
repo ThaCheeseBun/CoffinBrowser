@@ -1,6 +1,7 @@
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import polyfillNode from "rollup-plugin-polyfill-node";
+import { minify } from "rollup-plugin-esbuild-minify";
 
 export default [
     {
@@ -18,7 +19,8 @@ export default [
             nodeResolve(),
             polyfillNode({
                 include: null
-            })
+            }),
+            minify()
         ]
     }
 ];

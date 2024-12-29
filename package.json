@@ -11,6 +11,7 @@
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-node-resolve": "^16.0.0",
     "rollup": "^4.29.1",
+    "rollup-plugin-esbuild-minify": "^1.2.0",
     "rollup-plugin-polyfill-node": "^0.13.0"
   },
   "dependencies": {
