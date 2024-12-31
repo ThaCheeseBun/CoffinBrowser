@@ -8,7 +8,7 @@ Install deps and build like any other Node project. Copy the output `dist/Coffin
 ```
 Add above code under `<body style="background-color: black">` in `<GAME>/www/index.html`. Spin up any HTTP server in the `<GAME>/www` folder and you're good to go.
 
-Not heavily tested at the moment so your localStorage *might* fill up with a bunch of log files, but it's fiiiiine.
+Not heavily tested at the moment but I successfully managed a full playthrough.
 
 ## Why?
 Boredom.
